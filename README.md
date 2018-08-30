@@ -57,22 +57,17 @@ This training aims to teach the basics of the Vue.js framework, explore its ecos
 
 ## Exercises
 
-[Template Syntax - Text & attributes](https://codepen.io/sylvainpv/pen/LBgqbq?editors=1010)
-
-[Template Syntax - Class and Styles](https://codepen.io/sylvainpv/pen/qyJgLe?editors=1010)
-
-[Template Syntax - Form inputs](https://codepen.io/sylvainpv/pen/rrqEMg?editors=1010)
-
-[Template Syntax - Conditions](https://codepen.io/sylvainpv/pen/bjmXXV?editors=1010)
-
-[Template Syntax - Lists](https://codepen.io/sylvainpv/pen/RBqbBW?editors=1010)
-
-[Template Syntax - Events](https://codepen.io/sylvainpv/pen/NBEKQw?editors=1010)
+- [Template Syntax - Text & attributes](https://codepen.io/sylvainpv/pen/LBgqbq?editors=1010)
+- [Template Syntax - Class and Styles](https://codepen.io/sylvainpv/pen/qyJgLe?editors=1010)
+- [Template Syntax - Form inputs](https://codepen.io/sylvainpv/pen/rrqEMg?editors=1010)
+- [Template Syntax - Conditions](https://codepen.io/sylvainpv/pen/bjmXXV?editors=1010)
+- [Template Syntax - Lists](https://codepen.io/sylvainpv/pen/RBqbBW?editors=1010)
+- [Template Syntax - Events](https://codepen.io/sylvainpv/pen/NBEKQw?editors=1010)
 
 [Practical exercise - To-do list](https://codepen.io/sylvainpv/pen/LBXKoR?editors=1010)
 
 ## References and links
 
-[Vue.js docs](https://vuejs.org/v2/guide)
-[Nuxt docs](https://fr.nuxtjs.org/guide/installation)
-[Vue devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- [Vue.js docs](https://vuejs.org/v2/guide)
+- [Nuxt docs](https://fr.nuxtjs.org/guide/installation)
+- [Vue devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
