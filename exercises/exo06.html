@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello Vue</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p>Exercise #6: use events to add a new monkey on button click, and make monkeys open their eyes on mouseover</p>
+        <ul>
+            <li v-for="monkey in monkeys">
+                <span v-if="monkey.hasMouseOver">🙉</span>
+                <span v-else>🙈</span>
+            </li>
+        </ul>
+        <button>Add a monkey</a>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                monkeys: [{ hasMouseOver: false }]
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello Vue</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p>Exercise #5: use two v-for to display all the items in the basket</p>
+        <h1>In my basket:</h1>
+        <ul>
+            <li>
+                <span>🍌</span>
+                <span>🍌</span>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                basket: [
+                    { type: '🍌', quantity: 2 },
+                    { type: '🍎', quantity: 4 },
+                    { type: '🍒', quantity: 8 },
+                    { type: '🍉', quantity: 1 },
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

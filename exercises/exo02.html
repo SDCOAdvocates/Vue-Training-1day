@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello Vue</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p>Exercise #2: assign a class and a color to each ghost</p>
+        <div>👻</div>
+        <div>👻</div>
+        <div>👻</div>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                ghost1: {
+                    class: "animated ghost tada",
+                    style: "color:red"
+                },
+                ghost2: {
+                    style: { color: "green" },
+                    class: { ghost: true, animated: true, jello: true }
+                },
+                ghost3: {
+                    hasClassWobble: true,
+                    isBlue: true
+                }
+            }
+        });</script>
+</body>
+
+</html>

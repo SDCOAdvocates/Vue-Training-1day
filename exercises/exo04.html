@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello Vue</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p>Exercise #4: use v-if and v-else to toggle between the faces</p>
+        <p>
+            <label>
+                <input type="checkbox" v-model="isHungry" />
+                Hungry ?
+            </label>
+            <span>😋 Yep</span>
+            <span>😊 Nope</span>
+        </p>
+
+        <script>
+            var vm = new Vue({
+                el: '#app',
+                data: {
+                    isHungry: false
+                }
+            });
+        </script>
+    </div>
+</body>
+
+</html>

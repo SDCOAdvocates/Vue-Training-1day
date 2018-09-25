@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vue Todolist</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>To-do list: 3 tasks left</h1>
+        <ul>
+            <li class="completed">
+                <label><input type="checkbox" checked> Learn Vue</label>
+            </li>
+            <li class="completed">
+                <label><input type="checkbox" checked> Have lunch</label>
+            </li>
+            <li>
+                <label><input type="checkbox"> Make a todolist app</label>
+            </li>
+        </ul>
+        <p>
+            <input type="text">
+            <button>Add a new task</button>
+        </p>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                todos: []
+            }
+        });
+    </script>
+</body>
+
+</html>
